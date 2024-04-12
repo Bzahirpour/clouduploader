@@ -10,7 +10,7 @@ I wrote this tool as part of my studies for cloud engineering. The project came 
 
 ## How to setup
 
-1. Create a bucket in aws: aws s3 mb s3://clouduploader
+1. Create a bucket in aws through the CLI: aws s3 mb s3://clouduploader
 2. Place this script in ~/bin directory, where personal executable files such as scripts are intended to be stored.
 
 ## How to use
