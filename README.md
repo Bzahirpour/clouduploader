@@ -1,5 +1,5 @@
 # Bash-based CLI toold that allows users to quickly upload files to s3
-I wrote this tool as part of my studies for cloud engineering. The project came from the website [Learntocloud](https://learntocloud.guide/phase1/). The website outlines a study path broken into sections, and at the end of each section a project is givin to put into practice th topcis learned in the section. The objective is outlined on the website, but there is no guide so you're left on your own to figure out how to complete the project. The project encompasses knowledge of BASH, Linux, and AWS.
+I wrote this tool as part of my studies for cloud engineering. The project came from the website [Learntocloud](https://learntocloud.guide/phase1/) section 1 which covers Linux and networking. The website outlines a study path broken into sections, and at the end of each section a project is givin to put into practice the topcis learned in the section. The objective is outlined on the website, but there is no guide so you're left on your own to figure out how to complete the project. The project encompasses knowledge of BASH, Linux, and AWS.
 
 ## Prerequisites
 
