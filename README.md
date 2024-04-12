@@ -20,7 +20,7 @@ I wrote this tool as part of my studies for cloud engineering. The project came 
 
 ## How it works
 
-The file name you enter will get copyied to the s3 bucket named "clouduploader". Before the file is uploaded the script will check to make sure the file exists. There will be a progress bar to indicate the status of the upload, and the script will let you know if the file has been successfull uploaded or not.
+The file name you enter will get copied to the s3 bucket named "clouduploader". Before the file is uploaded the script will check to make sure the file exists. There will be a progress bar to indicate the status of the upload, and the script will let you know if the file has been successfull uploaded or not.
 
 
 ## Contributing
