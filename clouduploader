@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# This script uploads a file to an S3 bucket
+
+# Assign the argument to the FILENAME variable
+FILENAME=$1
+
+# Check if the file exists
+if [ -f "$FILENAME" ]; then
+	echo "File found"
+else
+	echo "File not found"
+	exit 1 # Exit the script if the file is not found
+fi
+
+# Upload file to S3 using pv for progress indication
+pv "$FILENAME" | aws s3 cp - s3://clouduploader/"$FILENAME"
+
+# Provide a success or failure message based on the exit status of the upload command
+if [ $? -eq 0 ]; then
+	echo "Upload successful"
+else
+	echo "Upload failed"
+fi
