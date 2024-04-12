@@ -6,17 +6,17 @@ I wrote this tool as part of my studies for cloud engineering. The project came 
 - [An AWS subscription. Create one for free.](https://aws.amazon.com/resources/create-account/)
 - [Install WSL if you are on Windows. Skip if you are on Linux.](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [Create access keys inside of IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)
-- Configure aws - open wsl and run aws configure, then copy / paste the access key into the CLI, and copy paste the secret key into the CLI. For the default region select a region close to you for me its us-east-1, default output format just press enter.
+- Configure aws - open wsl and run "aws configure", then copy / paste the access key into the CLI, and copy paste the secret key into the CLI. For the default region select a region close to you for me its us-east-1, default output format just press enter.
 
 ## How to setup
 
-1. Create a bucket in aws through the CLI: aws s3 mb s3://clouduploader
+1. Create a bucket in aws through the CLI: "aws s3 mb s3://clouduploader"
 2. Place this script in ~/bin directory, where personal executable files such as scripts are intended to be stored.
 
 ## How to use
 
 1. Type clouduploader in the shell. The first arguement is name of the file you wish to upload.
-2. Example: clouduploader myfile.txt
+2. Example: "clouduploader myfile.txt"
 
 ## How it works
 
