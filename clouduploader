@@ -5,6 +5,9 @@
 # Assign the argument to the FILENAME variable
 FILENAME=$1
 
+# Assign the arguement to the RECURSIVE variable
+RECURSIVE=$2
+
 # Check if the file exists
 if [ -f "$FILENAME" ]; then
 	echo "File found"
