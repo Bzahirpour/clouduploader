@@ -10,8 +10,10 @@ I wrote this tool as part of my studies for cloud engineering. The project came 
 
 ## How to setup
 
-1. Create a bucket in aws through the CLI: "aws s3 mb s3://clouduploader"
-2. Place this script in ~/bin directory, where personal executable files such as scripts are intended to be stored.
+1. Create a bucket in aws through the CLI: "aws s3 mb s3://clouduploader-yourbucketname"
+2. Take the bucket name and replace the name of the bucket inside of the script (mine is called clouduploader-bnz)
+3. Change the permissions on the script "chmod 744 clouduploader" (Makes the file executable)
+4. Place this script in ~/bin directory, where personal executable files such as scripts are intended to be stored.
 
 ## How to use
 

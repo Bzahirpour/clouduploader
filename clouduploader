@@ -14,7 +14,7 @@ else
 fi
 
 # Upload file to S3 using pv for progress indication
-pv "$FILENAME" | aws s3 cp - s3://clouduploader/"$FILENAME"
+pv "$FILENAME" | aws s3 cp - s3://clouduploader-bnz/"$FILENAME"
 
 # Provide a success or failure message based on the exit status of the upload command
 if [ $? -eq 0 ]; then
