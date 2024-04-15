@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# While the number of arguments is greater than zero assign them one by one to the FILENAME variable
+while [[ $# -gt 0 ]]; do
+  FILE="$1"
+
+# If the -f option is provided, it collects the filenames provided after it and stores them in an array. If any other option is provided, it prints an error message and exits the script.
+  case $FILE in
+    -f)
+      shift
+      FILES+=("$@")
+      break
+      ;;
+    *)
+      echo "Unkown option: $FILE"
+      exit 1
+      ;;
+  esac
+done
