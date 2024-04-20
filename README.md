@@ -27,6 +27,6 @@ The file name you enter will get copied to the s3 bucket named "clouduploader". 
 
 ## Contributing
 
-Feel free to open up an issue or reach out to me.
+Feel free to open up an issue or reach out to me!
 
  **Benjamin Zahirpour**
